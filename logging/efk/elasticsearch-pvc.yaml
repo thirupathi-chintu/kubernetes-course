@@ -8,10 +8,10 @@ spec:
   resources:
     requests:
       storage: 10Gi
-  selector:
-    matchLabels:
-      app: es-pv
-      podindex: "0"
+  # selector:
+  #   matchLabels:
+  #     app: es-pv
+  #     podindex: "0"
 
 ---
 
@@ -25,10 +25,10 @@ spec:
   resources:
     requests:
       storage: 10Gi
-  selector:
-    matchLabels:
-      app: es-pv
-      podindex: "1"
+  # selector:
+  #   matchLabels:
+  #     app: es-pv
+  #     podindex: "1"
 
 ---
 
@@ -42,7 +42,7 @@ spec:
   resources:
     requests:
       storage: 10Gi
-  selector:
-    matchLabels:
-      app: es-pv
-      podindex: "2"
+  # selector:
+  #   matchLabels:
+  #     app: es-pv
+  #     podindex: "2"
